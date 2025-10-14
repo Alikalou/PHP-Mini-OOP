@@ -1,0 +1,11 @@
+{
+  "name": "yourname/library-mini-project",
+  "description": "Mini PHP OOP project with autoloading",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {}
+}

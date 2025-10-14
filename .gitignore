@@ -1,0 +1,13 @@
+# PHP / Composer
+/vendor/
+/composer.lock
+
+# Logs and cache
+*.log
+/var/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
