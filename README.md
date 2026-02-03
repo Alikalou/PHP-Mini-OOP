@@ -1,16 +1,21 @@
-## PHP 8 OOP Mini Project – LMS Demo
+# Mini LMS (PHP 8)
 
-This repository represents a **simple OOP demonstration of a Library Management System (LMS)** written in PHP 8.
+This repository contains a **small Learning Management System (LMS) prototype** implemented in **PHP 8**, designed to demonstrate and apply object-oriented programming principles in a focused, self-contained codebase.
 
-The implementation is intentionally **minimal** and not meant to be feature-complete or production-ready. The goal of this project is **learning**, not complexity.
+The project is intentionally **scope-limited** and aims to showcase clean OOP design and language features rather than full application complexity or production concerns.
 
-Its main purpose is to serve as an introduction to **PHP 8 object-oriented programming constructs** through a small, self-contained codebase that is easy to read and reason about.
+---
+
+## Project Purpose
+
+This project serves as a practical demonstration of **PHP 8 object-oriented programming constructs** through a simple LMS-style domain model.  
+The emphasis is on **code clarity, structure, and responsibility separation**, making the system easy to read, understand, and extend.
 
 ---
 
 ## What This Project Demonstrates
 
-The project focuses on practicing and understanding core OOP concepts in PHP, including:
+The implementation focuses on applying core OOP concepts in PHP, including:
 
 - Classes and objects  
 - Inheritance and polymorphism  
@@ -20,15 +25,13 @@ The project focuses on practicing and understanding core OOP concepts in PHP, in
 - Basic file handling and object serialization  
 - Runtime introspection  
 
-All examples are kept straightforward to emphasize **concept clarity over application logic**.
+All examples are intentionally straightforward to emphasize **conceptual correctness and design clarity** over feature breadth.
 
 ---
 
 ## Source Code Structure
 
-The `src/` directory contains the actual **OOP constructs and domain classes** used in the project.  
-Each folder represents a specific concept or responsibility, such as domain entities, interfaces, traits, and supporting utilities.
+The `src/` directory contains the project’s domain entities and supporting OOP constructs.  
+Each folder represents a specific responsibility, such as domain models, interfaces, traits, and shared utilities.
 
-The project also includes a small **demo script** that exercises these classes and demonstrates how the different OOP features work together in practice.
-
----
+A small demo script is included to exercise the system and illustrate how the different OOP components interact at runtime.
